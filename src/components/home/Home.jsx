@@ -5,7 +5,7 @@ import HeaderSocials from "./HeaderSocials";
 
 const Home = () => {
   return (
-    <section className="home container" id="home">
+    <section className="home container section" id="home">
       <div className="home__container grid">
         <div className="home__data">
           <div className="home__info">
