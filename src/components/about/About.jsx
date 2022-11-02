@@ -12,7 +12,7 @@ const About = () => {
         <div className="about__data">
           <div className="about__info">
             <p className="about__description">
-              Nazywam się Dominik Such i moim hobby jest testowanie, oraz nauka
+              Nazywam się Dominik Such. Moim hobby jest testowanie oraz nauka
               programowania. Od około roku pracuję jako główny tester aplikacji
               mobilnych, oraz webowych gdzie zajmuję się testowaniem manualnym.
               W wolnym czasie uczę się programowania testów automatycznych,
