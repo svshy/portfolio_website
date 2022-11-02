@@ -1,0 +1,17 @@
+.home__socials {
+  margin-top: 1rem;
+  display: flex;
+  column-gap: 1.75rem;
+  justify-content: center;
+}
+
+.home__social-link {
+  font-size: 2rem;
+  color: var(--title-color);
+  transition: 0.3s;
+}
+
+.home__social-link:hover {
+  transform: scale(1.2);
+  color: #6555c7;
+}
