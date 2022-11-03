@@ -76,7 +76,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="user_name"
-                  placeholder="Imię"
+                  placeholder="Imię i nazwisko"
                   className="contact__form-input"
                   onChange={handleInputChange}
                   value={formInputs.user_name}

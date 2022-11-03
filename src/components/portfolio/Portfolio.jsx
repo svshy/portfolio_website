@@ -12,6 +12,7 @@ const portfolio = [
     title: `Strona "O mnie"`,
     description:
       "Strona napisana przy użyciu technologii React, JavaScript, CSS, HTML, aby wykorzystać teorię z obejrzanych kursów w praktyce.",
+    link: "https://github.com/svshy/portfolio_website",
   },
   {
     id: 2,
@@ -24,10 +25,9 @@ const portfolio = [
   {
     id: 3,
     image: Bug2,
-    title: "Testy automatyczne - Cypress",
-    description:
-      "Projekt z testami automatycznymi w Cypress stworzonymi przeze mnie w ramach ćwiczeń na stronie Automation Exercise. Dodatkowo napisany pipeline, który pozwala uruchomić testy automatyczne i wygenerować raport z testów w HTML na Jenkinsie.",
-    link: "https://github.com/svshy/Automation-exercise-e2e-cypress-tests",
+    title: "W przygotowaniu",
+    description: "W przygotowaniu",
+    link: "",
   },
 ];
 

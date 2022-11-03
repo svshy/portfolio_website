@@ -10,7 +10,7 @@ const PortfolioItem = ({ id, image, title, description, link }) => {
       </div>
       <h3 className="work__title">{title}</h3>
       <p className="work__description">{description}</p>
-      <a href={link} className="work__button">
+      <a href={link} className="work__button" target="_blank" rel="noreferrer">
         <i className="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
     </div>
