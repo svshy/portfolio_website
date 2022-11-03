@@ -6,7 +6,6 @@
 }
 
 .home__container {
-  margin-top: 4rem;
   grid-template-columns: 1fr 1fr;
   column-gap: 5.5rem;
   align-items: center;
