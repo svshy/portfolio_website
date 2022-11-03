@@ -1,88 +1,55 @@
 .work__card {
-  position: relative;
-  overflow: hidden;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
+  position: relative;
 }
 
 .work__thumbnail {
   padding: 10%;
-  transition: 0.3s;
+  text-align: center;
 }
 
-.work__card:hover .work__thumbnail {
-  scale: 1.1;
-}
-
-.work__mask {
-  background: #6555c7;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  transition: 0.3s;
-  opacity: 0;
-}
-
-.work__card:hover .work__mask {
-  opacity: 0.8;
+.work__img {
+  height: 250px;
 }
 
 .work__title {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: var(--h3-font-size);
   margin: 0 0 0.98rem;
   padding: 0 1.25rem;
-  position: absolute;
-  top: 2rem;
-  transform: translateY(30px);
-  transition: 0.3s;
-  opacity: 0;
 }
 
 .work__description {
-  color: white;
+  color: black;
   font-size: var(--small-font-size);
   margin: 0 0 0.98rem;
   padding: 0 1.25rem;
-  position: absolute;
-  top: 4rem;
-  transform: translateY(30px);
-  transition: 0.3s;
-  opacity: 0;
 }
 
 .work__button {
-  color: var(--title-color);
   position: absolute;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  font-size: var(--h2-font-size);
+  top: 1rem;
+  right: 1rem;
+  color: white;
+  font-size: 20px;
   display: block;
-  background-color: white;
+  background-color: var(--first-color);
   cursor: pointer;
   border-radius: 100%;
   text-align: center;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   transition: 0.3s;
-  opacity: 0;
 }
 
-.work__card:hover .work__button {
-  opacity: 1;
+.work__button:hover {
+  transform: scale(1.1);
 }
 
-.work__card .work__button:hover {
-  opacity: 1;
-  transform: scale(1.2);
-}
-
-.work__card:hover .work__title,
-.work__card:hover .work__category,
-.work__card:hover .work__description {
-  opacity: 1;
-  transform: translateY(0);
+@media screen and (max-width: 768px) {
+  .work__img {
+    width: 200px;
+  }
 }

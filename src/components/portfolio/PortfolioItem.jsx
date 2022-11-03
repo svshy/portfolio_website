@@ -6,7 +6,6 @@ const PortfolioItem = ({ id, image, title, description, link }) => {
     <div className="work__card" key={id}>
       <div className="work__thumbnail">
         <img src={image} alt="" className="work__img" />
-        <div className="work__mask"></div>
       </div>
       <h3 className="work__title">{title}</h3>
       <p className="work__description">{description}</p>

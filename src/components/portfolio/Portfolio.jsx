@@ -11,7 +11,7 @@ const portfolio = [
     image: Web1,
     title: `Strona "O mnie"`,
     description:
-      "Strona napisana przy użyciu technologii React, JavaScript, CSS, HTML, aby wykorzystać teorię z obejrzanych kursów w praktyce.",
+      "Strona napisana przy użyciu technologii React, JavaScript, CSS, HTML, aby wykorzystać teorię z obejrzanych kursów w praktyce. Do wysyłki emaili zastosowano rozwiązanie EmailJS",
     link: "https://github.com/svshy/portfolio_website",
   },
   {
