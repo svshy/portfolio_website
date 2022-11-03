@@ -15,10 +15,13 @@ const Navbar = () => {
   return (
     <nav className="nav container">
       <div className="nav__container">
-        <i className="fa-solid fa-bars" onClick={hamburgerMenuHandler}></i>
+        <i
+          className={`fa-solid ${isHamburgerOpen ? "fa-xmark" : "fa-bars"}`}
+          onClick={hamburgerMenuHandler}
+        ></i>
 
         <div className="nav__menu">
-          <ul className={`nav__list ${isHamburgerOpen && "open"}`}>
+          <ul className={`nav__list ${isHamburgerOpen ? "open" : "close"}`}>
             <li className="nav__item">
               <a
                 href="#home"
