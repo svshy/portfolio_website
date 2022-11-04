@@ -5,7 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
   z-index: 1;
 }
 
@@ -42,20 +41,28 @@
 }
 
 .nav__link {
-  color: var(--title-color);
   font-size: 1.125rem;
   font-weight: var(--font-bold);
 }
 
 .fa-moon {
   font-size: 1.5rem;
-  color: var(--title-color);
   cursor: pointer;
   transition: 0.3s;
 }
 
 .fa-moon:hover {
-  scale: 1.2;
+  scale: 1.1;
+}
+
+.fa-sun {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa-sun:hover {
+  scale: 1.1;
 }
 
 .fa-xmark {

@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./navbar.css";
+import { ThemeContext } from "../../App";
 
 const Navbar = () => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
+
+  const themeCtx = useContext(ThemeContext);
 
   const hamburgerMenuHandler = () => {
     setIsHamburgerOpen(!isHamburgerOpen);
@@ -71,7 +74,12 @@ const Navbar = () => {
         </div>
 
         <div className="nav__buttons">
-          <i className="fa-solid fa-moon"></i>
+          <i
+            className={`fa-solid ${
+              themeCtx.theme === "light" ? "fa-moon" : "fa-sun"
+            }`}
+            onClick={themeCtx.toggleTheme}
+          ></i>
         </div>
       </div>
     </nav>

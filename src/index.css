@@ -6,9 +6,12 @@
   /*========= Colors CSS =========*/
   --first-color: #6555c7;
   --title-color: hsl(244, 24%, 26%);
-  --text-color: hsl(244, 16%, 43%);
+  --title-color-dark: hsla(0, 0%, 100%, 0.8);
+  --text-color: hsl(243, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
-  /* hsl(258, 60%, 98%); */
+  --body-color-dark: hsl(259, 28%, 10%);
+  --nav-bg-color: hsl(0, 0%, 100%);
+  --nav-bg-color-dark: hsl(259, 28%, 9%);
   --container-color: #fff;
 
   /*========= Font and Typography =========*/
@@ -62,7 +65,6 @@ textarea {
   font-size: var(--normal-font-size);
 }
 body {
-  background-color: var(--body-color);
   line-height: 1.7;
   color: var(--text-color);
 }

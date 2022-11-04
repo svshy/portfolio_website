@@ -1,0 +1,47 @@
+#light {
+  background-color: var(--body-color);
+}
+
+#dark {
+  background-color: var(--body-color-dark);
+}
+
+#light .nav {
+  background-color: var(--nav-bg-color);
+}
+
+#dark .nav {
+  background-color: var(--nav-bg-color-dark);
+}
+
+#light .nav__link {
+  color: var(--title-color);
+}
+
+#dark .nav__link {
+  color: var(--title-color-dark);
+}
+
+#light .fa-moon {
+  color: var(--title-color);
+}
+
+#dark .fa-sun {
+  color: var(--title-color-dark);
+}
+
+#light .home__info-hello {
+  color: var(--title-color);
+}
+
+#dark .home__info-hello {
+  color: var(--title-color-dark);
+}
+
+#light .home__info-desc {
+  color: var(--title-color);
+}
+
+#dark .home__info-desc {
+  color: var(--title-color-dark);
+}
