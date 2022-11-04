@@ -1,7 +1,9 @@
 .work__card {
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .work__thumbnail {
@@ -25,12 +27,16 @@
   font-size: var(--small-font-size);
   margin: 0 0 0.98rem;
   padding: 0 1.25rem;
+  min-height: 120px;
 }
 
 .work__button {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+  display: flex;
+  margin: 0 2rem 1.25rem 0;
+  justify-content: right;
+}
+
+.work__button-link {
   color: white;
   font-size: 20px;
   display: block;
@@ -44,7 +50,7 @@
   transition: 0.3s;
 }
 
-.work__button:hover {
+.work__button-link:hover {
   transform: scale(1.1);
 }
 
