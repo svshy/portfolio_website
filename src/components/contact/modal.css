@@ -14,7 +14,6 @@
   left: 5%;
   transform: translateY(-50%);
   width: 90%;
-  background-color: white;
   padding: 2rem;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);

@@ -28,16 +28,12 @@
 }
 
 .active {
-  color: white;
-  box-shadow: 10px 10px 25px -10px rgba(66, 68, 90, 1);
   background-color: var(--first-color);
 }
 
 .resume__timeline {
-  background-color: var(--container-color);
   padding: 1.875rem;
   border-radius: var(--border-radius);
-  box-shadow: var(--shadow);
   min-width: 55%;
   max-width: 55%;
 }
@@ -48,7 +44,6 @@
 .qualification-icon {
   font-size: 4rem;
   margin-bottom: 1.5rem;
-  color: var(--first-color);
 }
 
 @media screen and (max-width: 1024px) {

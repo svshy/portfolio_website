@@ -19,7 +19,9 @@ const Navbar = () => {
     <nav className="nav container">
       <div className="nav__container">
         <i
-          className={`fa-solid ${isHamburgerOpen ? "fa-xmark" : "fa-bars"}`}
+          className={`fa-solid nav__container-close-icon ${
+            isHamburgerOpen ? "fa-xmark" : "fa-bars"
+          }`}
           onClick={hamburgerMenuHandler}
         ></i>
 

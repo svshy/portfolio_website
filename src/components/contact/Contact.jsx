@@ -80,6 +80,7 @@ const Contact = () => {
                   className="contact__form-input"
                   onChange={handleInputChange}
                   value={formInputs.user_name}
+                  autoComplete="off"
                 />
               </div>
               <div className="contact__form-div">
@@ -90,6 +91,7 @@ const Contact = () => {
                   className="contact__form-input"
                   onChange={handleInputChange}
                   value={formInputs.user_email}
+                  autoComplete="off"
                 />
               </div>
             </div>
@@ -102,6 +104,7 @@ const Contact = () => {
                 className="contact__form-input"
                 onChange={handleInputChange}
                 value={formInputs.user_subject}
+                autoComplete="off"
               />
             </div>
             <div className="contact__form-div contact__form-area">
@@ -114,6 +117,7 @@ const Contact = () => {
                 placeholder="Treść wiadomości..."
                 onChange={handleInputChange}
                 value={formInputs.user_message}
+                autoComplete="off"
               ></textarea>
             </div>
             <div className="contact__form-submit">

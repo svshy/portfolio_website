@@ -1,6 +1,5 @@
 .work__card {
   border-radius: var(--border-radius);
-  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -23,7 +22,6 @@
 }
 
 .work__description {
-  color: black;
   font-size: var(--small-font-size);
   margin: 0 0 0.98rem;
   padding: 0 1.25rem;

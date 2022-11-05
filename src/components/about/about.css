@@ -6,8 +6,6 @@
 
 .about__data {
   padding: 1.875rem;
-  background-color: var(--container-color);
-  box-shadow: var(--shadow);
   border-radius: var(--border-radius);
 }
 
