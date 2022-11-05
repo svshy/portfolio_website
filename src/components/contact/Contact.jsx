@@ -7,6 +7,7 @@ import Modal from "./Modal";
 const Contact = () => {
   const form = useRef();
 
+  const [loading, setLoading] = useState(false);
   const [modalToggle, setModalToggle] = useState(false);
 
   const showModalHandler = () => {
@@ -14,6 +15,9 @@ const Contact = () => {
   };
 
   const hideModalHandler = () => {
+    if (loading === true) {
+      return;
+    }
     setModalToggle(false);
   };
 
@@ -36,6 +40,8 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    showModalHandler();
+    setLoading(true);
 
     emailjs
       .sendForm(
@@ -46,7 +52,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          showModalHandler();
+          setLoading(false);
         },
         (error) => {
           console.log(error.text);
@@ -63,7 +69,7 @@ const Contact = () => {
 
   return (
     <>
-      {modalToggle && <Modal onClose={hideModalHandler} />}
+      {modalToggle && <Modal onClose={hideModalHandler} loading={loading} />}
       <section className="contact container section" id="contact">
         <h2 className="section__title">Kontakt</h2>
         <div className="contact__container grid">
@@ -81,6 +87,7 @@ const Contact = () => {
                   onChange={handleInputChange}
                   value={formInputs.user_name}
                   autoComplete="off"
+                  required
                 />
               </div>
               <div className="contact__form-div">
@@ -92,6 +99,7 @@ const Contact = () => {
                   onChange={handleInputChange}
                   value={formInputs.user_email}
                   autoComplete="off"
+                  required
                 />
               </div>
             </div>
@@ -105,6 +113,7 @@ const Contact = () => {
                 onChange={handleInputChange}
                 value={formInputs.user_subject}
                 autoComplete="off"
+                required
               />
             </div>
             <div className="contact__form-div contact__form-area">
@@ -118,6 +127,7 @@ const Contact = () => {
                 onChange={handleInputChange}
                 value={formInputs.user_message}
                 autoComplete="off"
+                required
               ></textarea>
             </div>
             <div className="contact__form-submit">

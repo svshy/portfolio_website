@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import ReactDOM from "react-dom";
 import "./modal.css";
 import { ThemeContext } from "../../App";
+import BounceLoader from "react-spinners/BounceLoader";
 
 const Backdrop = (props) => {
   return <div className="backdrop" onClick={props.onClose}></div>;
@@ -25,6 +26,14 @@ const ModalOverlay = (props) => {
   );
 };
 
+const LoadingOverlay = (props) => {
+  return (
+    <div className="loading">
+      <BounceLoader color="#6555c7" loading={props.loading} />
+    </div>
+  );
+};
+
 const portalElement = document.getElementById("overlays");
 
 const Modal = (props) => {
@@ -35,7 +44,11 @@ const Modal = (props) => {
         portalElement
       )}
       {ReactDOM.createPortal(
-        <ModalOverlay onClose={props.onClose} />,
+        props.loading ? (
+          <LoadingOverlay loading={props.loading} />
+        ) : (
+          <ModalOverlay onClose={props.onClose} />
+        ),
         portalElement
       )}
     </>
