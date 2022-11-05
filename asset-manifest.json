@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.4f537a3b.css",
-    "main.js": "/portfolio_website/static/js/main.5f9d3f12.js",
+    "main.css": "/portfolio_website/static/css/main.c2e64d66.css",
+    "main.js": "/portfolio_website/static/js/main.bb21c4dc.js",
     "static/media/bug1.svg": "/portfolio_website/static/media/bug1.301a28085e01751b935677f82c300230.svg",
     "static/media/bug2.svg": "/portfolio_website/static/media/bug2.8a9ca0b38d15c297f55464bea81fefa6.svg",
     "static/media/man.png": "/portfolio_website/static/media/man.e186f0172c5ecaf8a795.png",
-    "static/media/work-man.svg": "/portfolio_website/static/media/work-man.629dfba8261d864678ca2e5d553699f0.svg",
+    "static/media/work-man.svg": "/portfolio_website/static/media/work-man.d5ed5c0641cc851e8897a20fa1b59a28.svg",
     "static/media/web1.svg": "/portfolio_website/static/media/web1.8e817d1d9a6e1f91782ebf8d88019341.svg",
     "static/media/CV_Dominik_Such.pdf": "/portfolio_website/static/media/CV_Dominik_Such.e2b984f1ebbce7b806a0.pdf",
     "static/media/contact-img.svg": "/portfolio_website/static/media/contact-img.4937d5f461e7de841615faab37ae5ac2.svg",
     "index.html": "/portfolio_website/index.html",
-    "main.4f537a3b.css.map": "/portfolio_website/static/css/main.4f537a3b.css.map",
-    "main.5f9d3f12.js.map": "/portfolio_website/static/js/main.5f9d3f12.js.map"
+    "main.c2e64d66.css.map": "/portfolio_website/static/css/main.c2e64d66.css.map",
+    "main.bb21c4dc.js.map": "/portfolio_website/static/js/main.bb21c4dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f537a3b.css",
-    "static/js/main.5f9d3f12.js"
+    "static/css/main.c2e64d66.css",
+    "static/js/main.bb21c4dc.js"
   ]
 }
