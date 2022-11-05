@@ -14,9 +14,9 @@ const About = () => {
             <p className="about__description">
               Nazywam się Dominik Such. Moim hobby jest testowanie oraz nauka
               programowania. Od około roku pracuję jako główny tester aplikacji
-              mobilnych, oraz webowych gdzie zajmuję się testowaniem manualnym.
-              W wolnym czasie uczę się programowania testów automatycznych,
-              które zacząłem wykorzystywać w swojej pracy, głównie przy użyciu
+              mobilnych oraz webowych gdzie zajmuję się testowaniem manualnym. W
+              wolnym czasie uczę się tworzenia testów automatycznych, które
+              zacząłem wykorzystywać w swojej pracy, głównie przy użyciu
               narzędzia Cypress, a także programowania w języku JavaScript
               wykorzystując bibliotekę React. Poszukuję miejsca pracy, które
               zapewni mi możliwość dalszego rozwoju.

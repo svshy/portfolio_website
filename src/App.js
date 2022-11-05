@@ -1,5 +1,5 @@
 import React, { useState, createContext } from "react";
-import "./App.css";
+import "./themes.css";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
@@ -10,10 +10,21 @@ import Contact from "./components/contact/Contact";
 export const ThemeContext = createContext(null);
 
 const App = () => {
-  const [theme, setTheme] = useState("light");
+  const isBrowserDefaultDark = () =>
+    window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  const getDefaultTheme = () => {
+    const localStorageTheme = localStorage.getItem("default-theme");
+    const browserDefault = isBrowserDefaultDark() ? "dark" : "light";
+    return localStorageTheme || browserDefault;
+  };
+
+  const [theme, setTheme] = useState(getDefaultTheme());
 
   const toggleTheme = () => {
-    setTheme((prevState) => (prevState === "light" ? "dark" : "light"));
+    const isCurrentDark = theme === "dark";
+    setTheme(isCurrentDark ? "light" : "dark");
+    localStorage.setItem("default-theme", isCurrentDark ? "light" : "dark");
   };
 
   return (
