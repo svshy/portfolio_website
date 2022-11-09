@@ -25,9 +25,10 @@ const portfolio = [
   {
     id: 3,
     image: Bug2,
-    title: "W przygotowaniu",
-    description: "W przygotowaniu",
-    link: "",
+    title: "Testy API Trello - Postman",
+    description:
+      "Kolekcja z zautomatyzowanymi testami wybranych metod z API Trello. W pliku Readme.md instrukcja uruchomienia testów w Postmanie oraz w konsoli za pośrednictwem Newmana, który przy użyciu odpowiedniej komendy generuje także raport w HTML.",
+    link: "https://github.com/svshy/Trello-API-test",
   },
 ];
 
