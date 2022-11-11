@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fe39bee.css",
-    "main.js": "/static/js/main.bd7f2cab.js",
+    "main.css": "/static/css/main.3e7fa845.css",
+    "main.js": "/static/js/main.aa3bbf6c.js",
     "static/media/bug1.svg": "/static/media/bug1.301a28085e01751b935677f82c300230.svg",
     "static/media/bug2.svg": "/static/media/bug2.8a9ca0b38d15c297f55464bea81fefa6.svg",
-    "static/media/man.png": "/static/media/man.e186f0172c5ecaf8a795.png",
+    "static/media/me.png": "/static/media/me.fc3f8f24214f86de3ea9.png",
+    "static/media/CV_Dominik_Such.pdf": "/static/media/CV_Dominik_Such.560d897b4fbd55da2ab5.pdf",
     "static/media/work-man.svg": "/static/media/work-man.d5ed5c0641cc851e8897a20fa1b59a28.svg",
     "static/media/web1.svg": "/static/media/web1.8e817d1d9a6e1f91782ebf8d88019341.svg",
-    "static/media/CV_Dominik_Such.pdf": "/static/media/CV_Dominik_Such.e2b984f1ebbce7b806a0.pdf",
     "static/media/contact-img.svg": "/static/media/contact-img.4937d5f461e7de841615faab37ae5ac2.svg",
     "index.html": "/index.html",
-    "main.3fe39bee.css.map": "/static/css/main.3fe39bee.css.map",
-    "main.bd7f2cab.js.map": "/static/js/main.bd7f2cab.js.map"
+    "main.3e7fa845.css.map": "/static/css/main.3e7fa845.css.map",
+    "main.aa3bbf6c.js.map": "/static/js/main.aa3bbf6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fe39bee.css",
-    "static/js/main.bd7f2cab.js"
+    "static/css/main.3e7fa845.css",
+    "static/js/main.aa3bbf6c.js"
   ]
 }
