@@ -97,6 +97,16 @@
   box-shadow: var(--shadow-dark);
 }
 
+#light .about__img {
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+}
+
+#dark .about__img {
+  background-color: #201d33;
+  box-shadow: var(--shadow-dark);
+}
+
 #light .about__description {
   color: var(--title-color);
 }

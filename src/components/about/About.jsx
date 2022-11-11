@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Image from "../../assets/man.png";
+import Image from "../../assets/me.png";
 import PdfCv from "../../private_files/CV_Dominik_Such.pdf";
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
           <div className="about__info">
             <p className="about__description">
               Nazywam się Dominik Such. Moim hobby jest testowanie oraz nauka
-              programowania. Od około roku pracuję jako główny tester aplikacji
+              programowania. Od prawie roku pracuję jako główny tester aplikacji
               mobilnych oraz webowych gdzie zajmuję się testowaniem manualnym. W
               wolnym czasie uczę się tworzenia testów automatycznych, które
               zacząłem wykorzystywać w swojej pracy, głównie przy użyciu
