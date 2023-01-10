@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.3e7fa845.css",
-    "main.js": "/static/js/main.fb1f42f4.js",
-    "static/media/bug1.svg": "/static/media/bug1.301a28085e01751b935677f82c300230.svg",
-    "static/media/bug2.svg": "/static/media/bug2.8a9ca0b38d15c297f55464bea81fefa6.svg",
+    "main.js": "/static/js/main.dc0f69c1.js",
+    "static/media/bug1.svg": "/static/media/bug1.c4b80db405af5fc8a31c4884d4b041d8.svg",
+    "static/media/bug2.svg": "/static/media/bug2.23bbe5382f61d81d7ad368cc71281cff.svg",
     "static/media/me.png": "/static/media/me.fc3f8f24214f86de3ea9.png",
     "static/media/CV_Dominik_Such.pdf": "/static/media/CV_Dominik_Such.704949c920094124f549.pdf",
     "static/media/work-man.svg": "/static/media/work-man.d5ed5c0641cc851e8897a20fa1b59a28.svg",
-    "static/media/web1.svg": "/static/media/web1.8e817d1d9a6e1f91782ebf8d88019341.svg",
-    "static/media/contact-img.svg": "/static/media/contact-img.4937d5f461e7de841615faab37ae5ac2.svg",
+    "static/media/web1.svg": "/static/media/web1.9d311210fbed6beac330fbc79d5fa855.svg",
+    "static/media/contact-img.svg": "/static/media/contact-img.c88cddb875edf74452edd8e8adc7ee0e.svg",
     "index.html": "/index.html",
     "main.3e7fa845.css.map": "/static/css/main.3e7fa845.css.map",
-    "main.fb1f42f4.js.map": "/static/js/main.fb1f42f4.js.map"
+    "main.dc0f69c1.js.map": "/static/js/main.dc0f69c1.js.map"
   },
   "entrypoints": [
     "static/css/main.3e7fa845.css",
-    "static/js/main.fb1f42f4.js"
+    "static/js/main.dc0f69c1.js"
   ]
 }
