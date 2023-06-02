@@ -28,7 +28,7 @@ const qualificationsArray = [
     id: 4,
     category: "experience",
     year: "02.2023 - obecnie",
-    title: "Młodszy Tester",
+    title: "Tester Oprogramowania",
     desc: "EMPIK S.A.",
   },
   {
@@ -56,11 +56,11 @@ const qualificationsArray = [
 
 const Resume = () => {
   const [qualifications, setQualifications] = useState([]);
-  const [isEducation, setIsEducation] = useState(true);
+  const [isExperience, setIsExperience] = useState(true);
 
   useEffect(() => {
     const educationArray = qualificationsArray.filter(
-      (qualification) => qualification.category === "education"
+      (qualification) => qualification.category === "experience"
     );
 
     setQualifications(educationArray);
@@ -71,10 +71,10 @@ const Resume = () => {
       (qualification) => qualification.category === category
     );
 
-    if (category === "experience") {
-      setIsEducation(false);
+    if (category === "education") {
+      setIsExperience(false);
     } else {
-      setIsEducation(true);
+      setIsExperience(true);
     }
 
     setQualifications(updatedQualifications);
@@ -84,16 +84,16 @@ const Resume = () => {
       <h2 className="section__title">Kwalifikacje</h2>
       <div className="resume__tabs">
         <span
-          className={`resume__item ${isEducation && "active"}`}
-          onClick={() => filterQualificationsHandler("education")}
-        >
-          Wykształcenie
-        </span>
-        <span
-          className={`resume__item ${!isEducation && "active"}`}
+          className={`resume__item ${isExperience && "active"}`}
           onClick={() => filterQualificationsHandler("experience")}
         >
           Doświadczenie
+        </span>
+        <span
+          className={`resume__item ${!isExperience && "active"}`}
+          onClick={() => filterQualificationsHandler("education")}
+        >
+          Wykształcenie
         </span>
       </div>
       <div className="resume__container">
@@ -101,7 +101,7 @@ const Resume = () => {
           <div className="resume__qualification">
             <i
               className={`qualification-icon ${
-                isEducation
+                isExperience
                   ? "fa-solid fa-graduation-cap"
                   : "fa-solid fa-briefcase"
               }`}
