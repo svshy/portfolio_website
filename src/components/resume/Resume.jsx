@@ -41,13 +41,6 @@ const qualificationsArray = [
   {
     id: 6,
     category: "experience",
-    year: "03.2020 - 10.2020",
-    title: "Specjalista ds. sprzedaży internetowej / księgowy",
-    desc: "ALDOMI Alicja Zimny",
-  },
-  {
-    id: 7,
-    category: "experience",
     year: "08.2018 - 12.2021",
     title: "Specjalista ds. sprzedaży internetowej",
     desc: "SHOKO SP. Z O.O. - Cocolita.pl",
@@ -102,8 +95,8 @@ const Resume = () => {
             <i
               className={`qualification-icon ${
                 isExperience
-                  ? "fa-solid fa-graduation-cap"
-                  : "fa-solid fa-briefcase"
+                  ? "fa-solid fa-briefcase"
+                  : "fa-solid fa-graduation-cap"
               }`}
             ></i>
           </div>
